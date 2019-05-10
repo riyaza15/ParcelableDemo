@@ -43,11 +43,11 @@ public class Item implements Parcelable {
         return 0;
     }
 
-    public Integer getRollno() {
+    public Integer getId() {
         return mId;
     }
 
-    public void setRollno(Integer rollno) {
+    public void setId(Integer rollno) {
         this.mId = rollno;
     }
 
@@ -59,11 +59,11 @@ public class Item implements Parcelable {
         this.mName = name;
     }
 
-    public Integer getAge() {
+    public Integer getLength() {
         return mLength;
     }
 
-    public void setAge(Integer age) {
+    public void setLengthh(Integer age) {
         this.mLength = age;
     }
 
