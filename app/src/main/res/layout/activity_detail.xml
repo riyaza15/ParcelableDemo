@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parcelabledemo.DetailActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/D_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="125dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/D_Name"
+        android:layout_alignBottom="@+id/D_Name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:text="Item Name"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/D_Roll"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Item Legnth"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/D_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/D_Name"
+        android:layout_below="@+id/D_Name"
+        android:layout_marginTop="47dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/D_Roll"
+        android:layout_alignBottom="@+id/D_Roll"
+        android:layout_alignStart="@+id/textView"
+        android:text="Item Id "
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/D_Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/D_Name"
+        android:layout_below="@+id/D_Age"
+        android:layout_marginTop="32dp"
+ />
+
+</RelativeLayout>

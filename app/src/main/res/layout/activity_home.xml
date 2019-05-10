@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parcelabledemo.HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="129dp"
+        android:text="Enter Item"
+        android:textSize="20dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/Ed_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="184dp"
+        android:hint="Enter item Name here" />
+
+    <EditText
+        android:id="@+id/Ed_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ed_Name"
+        android:layout_alignStart="@+id/Ed_Name"
+        android:layout_alignLeft="@+id/Ed_Name"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="36dp"
+        android:hint="Enter item lenght here" />
+
+    <EditText
+        android:id="@+id/Ed_RollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ed_Age"
+        android:layout_alignStart="@+id/Ed_Age"
+        android:layout_alignLeft="@+id/Ed_Age"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="22dp"
+        android:hint="Enter item Id  Here" />
+
+    <Button
+        android:id="@+id/E_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ed_RollNo"
+        android:layout_alignEnd="@+id/Ed_Age"
+        android:layout_alignRight="@+id/Ed_Age"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:text="Enter" />
+
+
+</RelativeLayout>
